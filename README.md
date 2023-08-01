@@ -1,10 +1,10 @@
-## Distributed and Parallel Systems
+# Parallel and distributed systems
 
-MPI programs written on PG's labs.
+Code written for Applied Computer Science **Parallel and distributed systems** course at [AGH UST](https://www.agh.edu.pl/en) [WFiIS](https://www.fis.agh.edu.pl/en/).
 
-Semester 8, year 2023.
+Semester `8`, year `2023`.
 
-### Setup on AGH local machine
+## Setup on AGH local machine
 
 ```sh
 ssh -X stud204-06
@@ -22,3 +22,7 @@ cp nodes nodes1 # create file with only working nodes
 # remove not working nodes from mpiexec command
 mpiexec -f nodes1 -n 16 uname -n
 ```
+
+## License
+
+Sources are licensed under MIT, a free and open-source license. For details, please see [the license file](LICENSE.md).
